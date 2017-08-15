@@ -19,5 +19,5 @@ Notable Features of Sydney Itself:
 Large hero image with sliding text on front page.
 Traveling navigation menu.
 
-
+If interested in seeing full work, please contact for link to full presentation on site and its features.
 

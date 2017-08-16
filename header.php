@@ -44,8 +44,9 @@
 		        <?php endif; ?>
 				</div>
 				<div class="col-md-8 col-sm-4 col-xs-12">
+                    <?php get_search_form(); ?>
 					<div class="btn-menu"></div>
-                    <nav id="mainnav" class="mainnav .quicklinks" role=""navigation>
+                    <nav id="mainnav" class="mainnav" role="navigation">
                         <?php wp_nav_menu( array( 'theme_location' => 'quick-links', 'container_class' => 'quick_links_class' ) ); ?>
                     </nav>
 					<nav id="mainnav" class="mainnav" role="navigation">

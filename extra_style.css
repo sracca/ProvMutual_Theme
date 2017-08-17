@@ -1,0 +1,127 @@
+/*
+Extra Styling CSS
+Author: Stephanie Racca
+*/
+
+/*Removing original sidebar*/
+.widget ul {
+list-style: none;
+padding: 0px;
+}
+
+/*Text styling*/
+h1.title-post {
+    font-size: 32px !important;
+	color: #e2c471;
+}
+
+h1.sow-headline {
+	font-size: 52 px !important;
+	color: #446f91 !important;
+}
+
+h3{
+	color: #e2c471 !important;
+}
+
+/*Spacing styling*/
+.layout-full .panel-row-style.no-bottom-padding {
+padding-bottom: 0;
+}
+
+/*Removes all posts from front page*/
+.post-navigation {
+	display: none !important;
+}
+
+/*Header styling*/
+.site-header {
+    background-color: rgba(255,255,255,0.9) !important;
+}
+
+.header-slider {
+    height: 750px !important;
+}
+
+/*Footer styling*/
+.footer-widgets .widget_nav_menu li {
+    display: inline-block;
+}
+
+/*Styling menu*/
+.btn-menu{
+  color: #e2c471;
+}
+
+#mainnav-mobi ul li {
+	background-color: #446f91;
+	border-top: 1px solid #385d71 ;
+}
+
+#mainnav .sub-menu li a {
+	border-top: 1px solid #385d7a;
+}
+#mainnav ul li a {
+	font-size: 16px !important;
+	padding-bottom: 20px !important;
+}
+
+/*Remove post author*/
+.single .byline, .group-blog .byline {
+	display: none;
+}
+
+a.url.fn.n {
+	display: none;
+}
+
+/*Remove post category*/
+.hentry .meta-post .byline,
+.hentry .meta-post .cat-links{ 
+  display: none; 
+} 
+
+/*Hide original mobile menu*/
+.btn-menu{
+  display: none;
+}
+
+/*Hide original mobile search*/
+@media only screen and (max-width: 991px){
+  #masthead{
+    display: none;
+  }  
+}
+
+/*Hide mobile slider */
+@media only screen and (max-width: 640px){
+  #slideshow{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+/*Styling search*/
+.header-wrap > .container{
+  position: relative;
+}
+
+.search-form{
+    float: right;
+}
+
+.search-form input {
+	   height: 30px;
+       color: #f5f5f5;
+       border-radius: 5px;
+}
+.search-form::before {
+    content: '\f002';
+    font-family: Fontawesome;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #446f91;
+}
+.search-submit {
+    display: none !important;
+}
